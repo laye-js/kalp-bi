@@ -1,0 +1,98 @@
+@charset "UTF-8";
+body{
+    background:white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+    overflow-x: hidden;
+    
+}
+html {
+    -ms-overflow-style: scrollbar;
+  }
+.navbar{
+   width: 100%;
+   height: 7em; 
+   box-shadow: 10px 5px 5px black;
+   background-color:rgb(17, 161, 245);
+   color: white;
+}
+P{
+    font-family: fantasy;
+    font-size: 1.5em;
+    position: relative;
+    top: 1em;
+    left: 2em;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    left: 40em;
+    bottom: 3em;
+}
+li{
+    margin-left: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(223, 102, 102);
+}
+.box1{
+    width: 100%;
+    height: 20em;
+    border: 2px solid black;
+}
+.solde{
+    font-family: fantasy;
+    font-size: 2.5em;
+    color: black;
+    position: relative;
+    left: 15em;
+    top: 0.5em;
+   
+}
+.money{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    position: relative;
+    left: 18em;
+   
+}
+.user{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.contvid{
+    width:35%;
+    height: 16.9em;
+    border: 2px solid black;
+    position: relative;
+    top: 2em;
+    left: 2em;
+}
+video{
+    width:200%;
+    height: 100%;
+    position: relative;
+    right: 15em;
+}
+.parole{
+    position: relative;
+    left: 43em;
+    bottom: 15em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box2{
+   
+    background-color: rgb(2, 139, 173);
+    height: 25em;
+    color: white;
+}

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+    background:rgb(17, 161, 245);
+}
+
+.fieldset{
+    border: 2px solid black;
+    width: 22em;
+    height: 15em;
+    position: relative;
+    top: 2em;
+    left: 35%;
+    background-color: white;
+}
+input{
+    position: relative;
+    left: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+}
+.btn{
+    position: relative;
+    left: 4em;
+}

@@ -1,0 +1,99 @@
+@charset "UTF-8";
+body{
+    background:rgb(17, 161, 245);
+    
+}
+
+.bloc{
+    width: 25em;
+    height: 30em;
+    border: 2px solid black;
+    box-shadow: 15px 5px 5px black;
+    position: relative;
+    left: 30em;
+    background: white;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.circle1{
+    height: 8em;
+    width: 8em;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    left: 8em;
+    top: 2em;
+    background: url("conception-icone-argent-comptant_1692-69.jpeg");
+    background-repeat: no-repeat;
+    background-size: 8em;
+}
+.circle2{
+    height: 8em;
+    width: 8em;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    left: 38em;
+    bottom: 20em;
+    background: url("6635483_preview.png");
+    background-repeat: no-repeat;
+    background-size: 16em;
+    background-position-x: -4em;
+    background-position-y: -0.7em;
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    position: relative;
+    bottom: 14em;
+    left: 25em;
+}
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    position: relative;
+    bottom: 14em;
+    left: 25em;
+}
+.fieldset{
+    border: 2px solid black;
+    width: 22em;
+    height: 15em;
+    position: relative;
+    top: 2em;
+    left: 35%;
+    background: white;
+}
+input{
+    position: relative;
+    left: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+}
+.btn{
+    position: relative;
+    left: 5.5em;
+}
+.fieldset2{
+    border: 2px solid black;
+    width: 22em;
+    height: 15em;
+    position: relative;
+    top: 2em;
+    left: 35%;
+    background: white;
+}
+.cross{
+    height: 2em;
+    width: 2em;
+    background: red;
+    position: relative;
+    bottom:14em;
+    left: 29em;
+    text-align: center;
+}
